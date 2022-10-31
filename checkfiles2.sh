@@ -7,7 +7,7 @@ echo "Number of mda files"
 find mountains -name "firings.mda" | wc -l
 
 echo "Start Times"
-head -n 1 *.out
+head -n 1 *-slurm*.out
 
 echo "End Times"
-tail -n 5 *.out 
+tail -n 5 *-slurm*.out 
